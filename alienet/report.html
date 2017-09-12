@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Aliens Abducted Me - Report an Abduction</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <h2>Me kane rrembyer alienet - Raportoje rrembimin</h2>
+
+  <p>Tregoje rrefimin tend te rrembimit nga alienet:</p>
+  <form method="post" action="report.php">
+    <label for="firstname">Emri:</label>
+    <input type="text" id="firstname" name="firstname" /><br />
+    <label for="lastname">Mbiemri:</label>
+    <input type="text" id="lastname" name="lastname" /><br />
+    <label for="email">Si e keni emailin?</label>
+    <input type="text" id="email" name="email" /><br />
+    <label for="whenithappened">Kur ka ndodhur rrembimi?</label>
+    <input type="text" id="whenithappened" name="whenithappened" /><br />
+    <label for="howlong">Sa kohe keni qene atje?</label>
+    <input type="text" id="howlong" name="howlong" /><br />
+    <label for="howmany">Sa aliene i keni pare?</label>
+    <input type="text" id="howmany" name="howmany" /><br />
+    <label for="aliendescription">Pershkruani ata:</label>
+    <input type="text" id="aliendescription" name="aliendescription" size="32" /><br />
+    <label for="whattheydid">Cka ju kane bere?</label>
+    <input type="text" id="whattheydid" name="whattheydid" size="32" /><br />
+    <label for="fangspotted">A e keni pare qenin Fang?</label>
+    Po <input id="fangspotted" name="fangspotted" type="radio" value="po" />
+    Jo <input id="fangspotted" name="fangspotted" type="radio" value="jo" /><br />
+    <img src="fang.jpg" width="100" height="175"
+      alt="Fangu qeni im i rrembyer." /><br />
+    <label for="other">Dicka tjeter qe doni te shtoni?</label>
+    <textarea id="other" name="other"></textarea><br />
+    <input type="submit" value="Raportoje rrembimin" name="submit" />
+  </form>
+</body>
+</html>
